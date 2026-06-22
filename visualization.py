@@ -67,7 +67,7 @@ def placeholder_wordcloud(width=800, height=400):
     return img
 
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "SPAM text message 20170820 - Data.csv"
+DATA_PATH = Path(__file__).resolve().parent / "SPAM text message 20170820 - Data.csv"
 
 try:
     from wordcloud import WordCloud
